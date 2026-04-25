@@ -4,7 +4,148 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+    background-color: rgb(7, 7, 39);
+    min-height: 210vh;
+}
+
+@media (max-width: 600px) {
+      
+  }
+
+ 
+
+
+header{
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 3.5vh;
+}
+@media (max-width: 600px) {
+      header{
+        font-size: 2vh;
+      }
+  }
+
+nav{
+   
+
+  display: flex;
+  
+  justify-content:center;
+  background: #1e293b;
+  position:sticky;
+  top:0;
+  z-index: 1000;
+}
+nav a{
+    padding: 15px 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4vh;
+    
+  text-decoration: none;
+  color: aliceblue;
+  transition: 0,3;
+}
+nav a:hover{
+    background:#334155;
+}
+@media (max-width: 600px) {
+    nav{
+        
+    }
+    nav a{
+        font-size: 18px;
+        padding: 10px 0; /*
+        left-right hata do */
+        width: 100%;
+        text-align: center;
+    }
+    
+}
+/* section */
+section{
+  padding:50px 20px;
+  text-align:center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  transform:translateY(50px);
+  transition:0.6s;
+  color:aliceblue;
+  font-size: 3vh;
+}
+  
+h2{
+    margin-bottom: 0px;
+}
+/* section */
+@media (max-width: 600px) {
+    section{
+    
+        position: relative;
+        top: -70px;
+    }
+   h2{
+    font-size: 18px;
+   }
+   p{
+    font-size: 10px;
+   }
+   
+    
+    }
+
+
+/* Skills */
+section{
+     padding: 50px 30px;
+}
+.skills span{
+    display: inline-block;
+    padding: 30px 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px;
+    text-align: center;
+    background: rgba(145, 145, 154, 0.067);
+    border-radius: 20px;
+    
+}
+.skills span:hover{
+    background: #79a1e1;
+    
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .skills span{
+        font-size: 18px;
+        padding: 10px 10px;
+    }
+}
+
+/* project */
+
+section {
+        
+    padding: 60px 30px;
+ 
+}
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.project{
+    background:#1e293b;
+  margin:15px auto;
+  padding:20px;
+  width: 50vh;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius:10px;
+  transition:0.3s;
+  font-size: 3vh;
+}
+    </style>
 </head>
 <body>
     <header>
